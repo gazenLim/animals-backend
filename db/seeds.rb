@@ -75,3 +75,5 @@ Animal.create([
 
 
 ])
+
+puts "hello"
