@@ -30,7 +30,7 @@ class AnimalsController < ApplicationController
     def destroy 
         animal = Animal.find_by_id(params[:id])
         animal.destroy
-        render json: {message: "#{animal.name} is deleted"}
+        render json: {message: "#{animal.name} was deleted"}
     end
 
      def update
